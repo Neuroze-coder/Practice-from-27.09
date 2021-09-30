@@ -11,7 +11,6 @@ public class Task2 {
         int leapDay = years/4;
         int weeksLeft = (days - ((years*365)+leapDay))/7;
         int daysLeft = days - ((years*365)+(weeksLeft*7));
-        System.out.println(leapDay);
         System.out.println("You entered: " + days + " days");
         System.out.println("This: " + years + " Years " + weeksLeft + " Weeks " + daysLeft + " Days");
     }
