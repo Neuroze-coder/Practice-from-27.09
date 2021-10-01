@@ -12,5 +12,6 @@ public class Task5 {
         } else {
             System.out.println("Точка вне круга");
         }
+
     }
 }
